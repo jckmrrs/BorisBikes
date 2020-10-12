@@ -9,10 +9,11 @@ require 'BorisBikes'
 describe "#DockingStation" do
 
   describe "#release_bike" do
-      docking_station = DockingStation.new
-      it "removed one bike from the docking station" do
-      expect(docking_station.release_bike(1)).to eq 0
+    docking_station = DockingStation.new()
+    it "removed one bike from the docking station" do
+      expect(docking_station.release_bike(1)).to eq 3
     end
-    end
+  end
+
 end
 
