@@ -6,5 +6,7 @@ class DockingStation
    def release_bike(num)
     @num_of_bikes -= num
    end
+end
 
+class Bikes
 end

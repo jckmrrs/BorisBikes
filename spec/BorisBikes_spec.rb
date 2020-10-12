@@ -12,8 +12,9 @@ describe "#DockingStation" do
     docking_station = DockingStation.new()
     it "removed one bike from the docking station" do
       expect(docking_station.release_bike(1)).to eq 3
+      end
+      it "makes a bike variable" do
+      expect(docking_station.release_bike(1)).to bikes
+      end
     end
   end
-
-end
-
